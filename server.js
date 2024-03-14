@@ -19,5 +19,5 @@ app.prepare().then(() => {
   });
   server.listen(port);
 
-  console.log(`Listening on HTTP port http://localhost:${port}`);
+  console.log(`Listening HTTP2 on port http://localhost:${port}`);
 });
